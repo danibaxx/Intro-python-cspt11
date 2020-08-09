@@ -12,7 +12,7 @@ for more info regarding list comprehensions.
 
 y = [x + 1 for x in range(5)]
 # for x in range(5):
-#   y.append(x+1)
+#   y.append(x + 1)
 print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
@@ -40,5 +40,8 @@ x = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
 y = [i for i in x if int(i) % 2 == 0]
+# for i in x:
+#   if int(i) % 2 == 0:
+#     y.append(i)
 
 print(y)
